@@ -22,3 +22,8 @@ Based on the [code](https://github.com/PatrykChrabaszcz/Imagenet32_Scripts) for 
     for images, labels in gen():
       yield images, labels
   ```
+
+
+
+python3 image_resizer_imagenet.py -s 240 -i /home/lorenzp/datasets/ImageNet3/train -o /home/DATA/ITWM/Imagenet240x240/train_data -r
+python3 image_resizer_imagenet.py -s 240 -i /home/lorenzp/datasets/ImageNet3/val -o /home/DATA/ITWM/Imagenet240x240/val_data -r
